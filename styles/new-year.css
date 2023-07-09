@@ -11,14 +11,12 @@ body {
 
 .title {
     color: #151414;
-    text-align: right;
     font-size: 65px;
     font-weight: 700;
 }
 
 .text {
     color: #444343;
-    text-align: right;
     font-size: 16px;
     font-weight: 400;
 }
@@ -53,4 +51,51 @@ header {
     margin-top: 150px;
     margin-left: 700px;
     text-align: right;
+}
+
+/* Main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Failure item */
+
+.failures {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.failure-img {
+    width: 450px;
+    justify-content: space-around;
+    margin-left: 60px;
+}
+
+.failure-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.failure-text {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓ ';
+    color: #16D887;
+}
+
+.failure-content {
+    height: auto;
+    width: 400px;
+    margin-left: 100px;
 }
