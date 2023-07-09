@@ -159,3 +159,63 @@ ul li:before {
 
 /* footer style */
 
+footer {
+    display: flex;
+    background-color: #151414;
+    padding: 100px 0px;
+}
+
+.future {
+    width: 450px;
+    margin-left: 170px;
+}
+
+.submit {
+    margin-left: 200px;
+}
+
+.color {
+    color: #F8F8F8;
+}
+
+.tit {
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+}
+
+.tex {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subs {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.eml {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 330px;
+    height: 30px;
+    flex-shrink: 0;
+    background-color: transparent;
+    color: #F8F8F8;
+    padding: 7px 0px 7px 20px;
+    margin: 25px 0px 15px 0px;
+}
+
+.nbtn {
+    border-radius: 5px;
+    border: 0px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    width: 140px;
+    background: #FFF;
+    color: #F15B22;
+}
